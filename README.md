@@ -21,3 +21,6 @@ If this repository is useful for your research, please cite:
   publisher={IEEE}
 }
 ```
+
+## Acknowledgement
+This work is mainly based on [SRC-MT](https://github.com/liuquande/SRC-MT), [VAT](https://arxiv.org/pdf/1704.03976.pdf), [M-DYR](https://arxiv.org/pdf/1904.11238.pdf) and [DivideMix](https://openreview.net/pdf?id=HJgExaVtwr). Thanks for these authors for their valuable works.
