@@ -6,6 +6,7 @@ This repository is for CVPR2023 paper '[PEFAT: Boosting Semi-supervised Medical 
 
 ### Usage
 Train the model
+
 python ./code/train.py
 
 ## Citation
