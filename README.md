@@ -15,12 +15,12 @@ python ./code/train.py
 
 If this repository is useful for your research, please consider citing:
 ```
-@article{qjzeng2023PEFAT,
-  title={PEFAT: Boosting Semi-supervised Medical Image Classification via Pseudo-loss Estimation and Feature Adversarial Training},
+@inproceedings{zeng2023pefat,
+  title={PEFAT: Boosting Semi-Supervised Medical Image Classification via Pseudo-Loss Estimation and Feature Adversarial Training},
   author={Zeng, Qingjie and Xie, Yutong and Lu, Zilin and Xia, Yong},
-  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2023},
-  publisher={IEEE}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15671--15680},
+  year={2023}
 }
 ```
 
