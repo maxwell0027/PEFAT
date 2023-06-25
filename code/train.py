@@ -505,7 +505,7 @@ if __name__ == "__main__":
                 x_du1 = torch.tensor(feat_u1.clone().detach().cpu().data.numpy() + 1e-3*du1.astype(np.float32), requires_grad=True)
                 u_d_logit1 = model.module.densenet121.classifier(x_du1.cuda())
                 u_d1_s = torch.softmax(u_d_logit1, dim=1)
-                x_du2 = torch.tensor(feat_u1.clone().detach().cpu().data.numpy() + 1e-3*du2.astype(np.float32), requires_grad=True)
+                x_du2 = torch.tensor(feat_u2.clone().detach().cpu().data.numpy() + 1e-3*du2.astype(np.float32), requires_grad=True)
                 u_d_logit2 = model.module.densenet121.classifier(x_du2.cuda())
                 u_d2_s = torch.softmax(u_d_logit2, dim=1)
                 
